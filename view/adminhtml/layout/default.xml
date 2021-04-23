@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Xnhinzkyx_AdminTheme::css/custom.css" />
+    </head>
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_img_width" xsi:type="number">300</argument> 
+                <argument name="logo_img_height" xsi:type="number">300</argument>
+                <argument name="show_part" xsi:type="string">logo</argument>
+                <argument name="edition" translate="true" xsi:type="string">Community Edition</argument>
+                <argument name="logo_image_src" xsi:type="string">Xnhinzkyx_AdminTheme/images/menu-logo.svg</argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>

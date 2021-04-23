@@ -1,0 +1,26 @@
+{
+    "name": "xnhinzkyx/magento-2-admin-theme",
+    "description": "Magento 2 Admin Theme extension",
+    "type": "magento2-module",
+    "require": {
+        "php": "7.1,7.2,7.3,7.4,8.0"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+      ],
+    "authors": [
+        {
+            "name": "xnhinzkyx",
+            "email": "nino.riconalla@copypaste.ph"
+        }
+    ],
+    "autoload": {
+        "files": [
+          "registration.php"
+        ],
+        "psr-4": {
+          "Xnhinzkyx\\AdminTheme\\": ""
+        }
+      }
+}

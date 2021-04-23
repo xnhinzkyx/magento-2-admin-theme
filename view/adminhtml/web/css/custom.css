@@ -1,0 +1,256 @@
+body,.page-layout-admin-login,
+.menu-wrapper .logo,
+.admin__menu .level-0>a,
+.admin__menu .level-0._active>a,
+.admin__menu .level-0>.submenu,
+.data-grid th,
+.menu-wrapper:before {
+    background-color: #121A2B !important;
+}
+
+.page-layout-admin-login .page-wrapper {
+    background-color: #121A2B !important;
+    box-shadow: 0 0 10px 0 #009688 !important;
+}
+
+.admin__menu .level-0._active>a,
+.admin__menu .level-0:hover>a,
+.admin__menu [class*='level-']:not(.level-0) a:hover,
+.data-grid .data-grid-th._sortable:focus,
+.data-grid .data-grid-th._sortable:hover,
+.action-primary {
+    background-color: #f2763b !important;
+    color: #fff !important;
+}
+
+.data-grid td>a {
+    color: #eb5209;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.data-grid tr:hover td {
+    background-color: #f2763b26 !important;
+}
+
+.menu-wrapper .logo .logo-img {
+    width: 100% !important;
+}
+
+.page-layout-admin-login .admin__field:not(.admin__field-option)>.admin__field-label span {
+    color: #fff !important;
+}
+
+.page-layout-admin-login .admin__field-info {
+    color: #ccc !important;
+}
+
+.page-layout-admin-login .admin__legend {
+    color: #f2763b !important;
+}
+
+.required>.admin__field-label span:after,
+._required>.admin__field-label span:after {
+    color: #f15747f0 !important;
+}
+
+.message-system-inner {
+    background-color: #fbf0a1 !important;
+}
+
+a.action-forgotpassword,
+a.action-back {
+    color: #02b5fb !important;
+}
+
+.admin__field-error,
+label.mage-error {
+    background: #FF5722 !important;
+    border: 1px solid #ee7d7d !important;
+    color: #fff !important;
+}
+
+.admin__control-text,
+.admin__control-select {
+    font-size: 1.2em !important;
+}
+
+
+/* buttons */
+
+.abs-action-secondary,
+.action-basic,
+button.secondary,
+.ui-dialog .ui-button,
+.ui-dialog .action-primary,
+.attribute-popup-actions .page-actions-buttons>button.action-default.primary,
+.modal-popup .modal-footer .action-primary,
+.page-actions>button.action-secondary,
+.page-actions .page-actions-buttons>button.action-secondary,
+.page-actions .page-actions-buttons>.action.action-secondary,
+.steps-wizard .select-attributes-actions .action-default,
+.popup-window .magento_buttons .ok_button,
+.fade .actions .primary,
+.attribute-popup-actions .page-actions.floating-header>button.action-default.primary,
+.page-actions .page-actions.floating-header>button.action-secondary,
+.page-actions .page-actions.floating-header>.action.action-secondary,
+.block-footer .action-add.secondary,
+.attribute-popup-actions .page-actions-buttons>.block-footer .action-add.action-default.primary,
+.page-actions>.block-footer .action-add.action-secondary,
+.page-actions .page-actions-buttons>.block-footer .action-add.action-secondary,
+.abs-action-primary:hover,
+.abs-action-primary:active,
+.abs-action-primary:focus,
+button.primary:hover,
+button.primary:active,
+button.primary:focus,
+.page-actions>button.action-primary:hover,
+.page-actions>button.action-primary:active,
+.page-actions>button.action-primary:focus,
+.page-actions .page-actions-buttons>button.action-primary:hover,
+.page-actions .page-actions-buttons>button.action-primary:active,
+.page-actions .page-actions-buttons>button.action-primary:focus,
+.page-actions .page-actions-buttons>.action.action-primary:hover,
+.page-actions .page-actions-buttons>.action.action-primary:active,
+.page-actions .page-actions-buttons>.action.action-primary:focus,
+.page-actions>button.primary:hover,
+.page-actions>button.primary:active,
+.page-actions>button.primary:focus,
+.page-actions .page-actions-buttons>button.primary:hover,
+.page-actions .page-actions-buttons>button.primary:active,
+.page-actions .page-actions-buttons>button.primary:focus,
+.page-actions .page-actions-buttons>.action.primary:hover,
+.page-actions .page-actions-buttons>.action.primary:active,
+.page-actions .page-actions-buttons>.action.primary:focus,
+.page-actions .page-actions.floating-header>button.action-primary:hover,
+.page-actions .page-actions.floating-header>button.action-primary:active,
+.page-actions .page-actions.floating-header>button.action-primary:focus,
+.page-actions .page-actions.floating-header>.action.action-primary:hover,
+.page-actions .page-actions.floating-header>.action.action-primary:active,
+.page-actions .page-actions.floating-header>.action.action-primary:focus,
+.page-actions .page-actions.floating-header>button.primary:hover,
+.page-actions .page-actions.floating-header>button.primary:active,
+.page-actions .page-actions.floating-header>button.primary:focus,
+.page-actions .page-actions.floating-header>.action.primary:hover,
+.page-actions .page-actions.floating-header>.action.primary:active,
+.page-actions .page-actions.floating-header>.action.primary:focus,
+.block-footer .action-add.primary:hover,
+.block-footer .action-add.primary:active,
+.block-footer .action-add.primary:focus,
+.page-actions>.block-footer .action-add.action-primary:hover,
+.page-actions>.block-footer .action-add.action-primary:active,
+.page-actions>.block-footer .action-add.action-primary:focus,
+.page-actions .page-actions-buttons>.block-footer .action-add.action-primary:hover,
+.page-actions .page-actions-buttons>.block-footer .action-add.action-primary:active,
+.page-actions .page-actions-buttons>.block-footer .action-add.action-primary:focus,
+.page-actions>.block-footer .action-add.primary:hover,
+.page-actions>.block-footer .action-add.primary:active,
+.page-actions>.block-footer .action-add.primary:focus,
+.page-actions .page-actions-buttons>.block-footer .action-add.primary:hover,
+.page-actions .page-actions-buttons>.block-footer .action-add.primary:active,
+.page-actions .page-actions-buttons>.block-footer .action-add.primary:focus,
+.actions-split.active .action-toggle.action-primary,
+.actions-split._active .action-toggle.action-primary,
+.actions-split.active .action-toggle.primary,
+.actions-split._active .action-toggle.primary,
+.action-secondary {
+    background-color: #131b2b !important;
+    border-color: #131b2b !important;
+}
+
+.abs-action-secondary:hover,
+.abs-action-secondary:active,
+.abs-action-secondary:focus,
+.action-basic:hover,
+.action-basic:active,
+.action-basic:focus,
+button.secondary:hover,
+button.secondary:active,
+button.secondary:focus,
+.ui-dialog .ui-button:hover,
+.ui-dialog .ui-button:active,
+.ui-dialog .ui-button:focus,
+.ui-dialog .action-primary:hover,
+.ui-dialog .action-primary:active,
+.ui-dialog .action-primary:focus,
+.attribute-popup-actions .page-actions-buttons>button.action-default.primary:hover,
+.attribute-popup-actions .page-actions-buttons>button.action-default.primary:active,
+.attribute-popup-actions .page-actions-buttons>button.action-default.primary:focus,
+.modal-popup .modal-footer .action-primary:hover,
+.modal-popup .modal-footer .action-primary:active,
+.modal-popup .modal-footer .action-primary:focus,
+.page-actions>button.action-secondary:hover,
+.page-actions>button.action-secondary:active,
+.page-actions>button.action-secondary:focus,
+.page-actions .page-actions-buttons>button.action-secondary:hover,
+.page-actions .page-actions-buttons>button.action-secondary:active,
+.page-actions .page-actions-buttons>button.action-secondary:focus,
+.page-actions .page-actions-buttons>.action.action-secondary:hover,
+.page-actions .page-actions-buttons>.action.action-secondary:active,
+.page-actions .page-actions-buttons>.action.action-secondary:focus,
+.steps-wizard .select-attributes-actions .action-default:hover,
+.steps-wizard .select-attributes-actions .action-default:active,
+.steps-wizard .select-attributes-actions .action-default:focus,
+.popup-window .magento_buttons .ok_button:hover,
+.popup-window .magento_buttons .ok_button:active,
+.popup-window .magento_buttons .ok_button:focus,
+.fade .actions .primary:hover,
+.fade .actions .primary:active,
+.fade .actions .primary:focus,
+.attribute-popup-actions .page-actions.floating-header>button.action-default.primary:hover,
+.attribute-popup-actions .page-actions.floating-header>button.action-default.primary:active,
+.attribute-popup-actions .page-actions.floating-header>button.action-default.primary:focus,
+.page-actions .page-actions.floating-header>button.action-secondary:hover,
+.page-actions .page-actions.floating-header>button.action-secondary:active,
+.page-actions .page-actions.floating-header>button.action-secondary:focus,
+.page-actions .page-actions.floating-header>.action.action-secondary:hover,
+.page-actions .page-actions.floating-header>.action.action-secondary:active,
+.page-actions .page-actions.floating-header>.action.action-secondary:focus,
+.block-footer .action-add.secondary:hover,
+.block-footer .action-add.secondary:active,
+.block-footer .action-add.secondary:focus,
+.attribute-popup-actions .page-actions-buttons>.block-footer .action-add.action-default.primary:hover,
+.attribute-popup-actions .page-actions-buttons>.block-footer .action-add.action-default.primary:active,
+.attribute-popup-actions .page-actions-buttons>.block-footer .action-add.action-default.primary:focus,
+.page-actions>.block-footer .action-add.action-secondary:hover,
+.page-actions>.block-footer .action-add.action-secondary:active,
+.page-actions>.block-footer .action-add.action-secondary:focus,
+.page-actions .page-actions-buttons>.block-footer .action-add.action-secondary:hover,
+.page-actions .page-actions-buttons>.block-footer .action-add.action-secondary:active,
+.page-actions .page-actions-buttons>.block-footer .action-add.action-secondary:focus,
+.abs-action-primary,
+button.primary,
+.page-actions>button.action-primary,
+.page-actions .page-actions-buttons>button.action-primary,
+.page-actions .page-actions-buttons>.action.action-primary,
+.page-actions>button.primary,
+.page-actions .page-actions-buttons>button.primary,
+.page-actions .page-actions-buttons>.action.primary,
+.page-actions .page-actions.floating-header>button.action-primary,
+.page-actions .page-actions.floating-header>.action.action-primary,
+.page-actions .page-actions.floating-header>button.primary,
+.page-actions .page-actions.floating-header>.action.primary,
+.block-footer .action-add.primary,
+.page-actions>.block-footer .action-add.action-primary,
+.page-actions .page-actions-buttons>.block-footer .action-add.action-primary,
+.page-actions>.block-footer .action-add.primary,
+.page-actions .page-actions-buttons>.block-footer .action-add.primary,
+.action-secondary:hover,
+.action-secondary:active,
+.action-secondary:focus {
+    background-color: #f2763b !important;
+    border-color: #eb5206 !important;
+    box-shadow: 0 0 0 1px #FF5722 !important;
+}
+
+.page-footer {
+    background-color: #131b2b !important;
+    border-top: .1rem solid #f2763b !important;
+    color: #ddd !important;
+}
+
+.magento-version strong {
+    color: #ddd !important;
+}
