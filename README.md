@@ -10,6 +10,16 @@ This Extension is for custom admin theme.
 ## Introduction installation:
 
 ### Install Magento 2 Admin Theme
+
+### Composer (Recommended)
+
+```
+composer config repositories.magento-2-admin-theme vcs https://github.com/xnhinzkyx/magento-2-admin-theme.git
+composer require xnhinzkyx/magento-2-admin-theme:dev-master
+```
+
+### Download
+
 - Download file
 - Unzip the file
 - Create a folder [root]/app/code/Xnhinzkyx/AdminTheme
