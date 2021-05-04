@@ -2,6 +2,7 @@
     "name": "xnhinzkyx/magento-2-admin-theme",
     "description": "Magento 2 Admin Theme extension",
     "type": "magento2-module",
+    "version": "1.0.1",
     "require": {
         "php": "7.1,7.2,7.3,7.4,8.0"
     },
