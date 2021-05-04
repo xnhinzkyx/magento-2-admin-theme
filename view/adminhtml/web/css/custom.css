@@ -27,8 +27,9 @@ body,.page-layout-admin-login,
     color: #eb5209;
     text-decoration: none;
     border: 1px solid;
-    padding: 10px 15px;
+    padding: 5px;
     border-radius: 5px;
+    white-space: nowrap;
 }
 
 .data-grid tr:hover td {
