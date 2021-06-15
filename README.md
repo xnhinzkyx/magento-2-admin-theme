@@ -15,7 +15,7 @@ This Extension is for custom admin theme.
 
 ```
 composer config repositories.magento-2-admin-theme vcs https://github.com/xnhinzkyx/magento-2-admin-theme.git
-composer require xnhinzkyx/magento-2-admin-theme:dev-master
+composer require xnhinzkyx/magento-2-admin-theme
 ```
 
 ### Download
